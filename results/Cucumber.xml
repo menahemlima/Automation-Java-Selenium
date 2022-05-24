@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.208">
+    <testcase classname="Cadastrar novo cliente" name="Cadastrar um novo cliente no site Automation Practice" time="0.019">
+        <failure message="Cannot invoke &quot;pages.Login.clickSignIn()&quot; because &quot;this.login&quot; is null" type="java.lang.NullPointerException"><![CDATA[Dado que o cliente tenha acessado o site de compras.........................failed
+Quando o cliente desejar criar um cadastro no site..........................skipped
+Então o cliente deve inserir todos as informações cadastrais................skipped
+E o cliente deve ser cadastrado com sucesso.................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "pages.Login.clickSignIn()" because "this.login" is null
+	at steps.BddSteps.que_o_cliente_tenha_acessado_o_site_de_compras(BddSteps.java:34)
+	at ✽.que o cliente tenha acessado o site de compras(file:///Users/menahem.lima/Downloads/automation_web_java/src/test/java/features/bdd.feature:4)
+]]></failure>
+    </testcase>
+    <testcase classname="Cadastrar novo cliente" name="Simular compra quatro produtos" time="0.004">
+        <failure message="Cannot invoke &quot;pages.Login.clickSignIn()&quot; because &quot;this.login&quot; is null" type="java.lang.NullPointerException"><![CDATA[Dado que o cliente tenha logado no site.....................................failed
+Quando adicionar na sacola de compras os 4 produtos.........................skipped
+E as informações de pagamento são inseridas.................................skipped
+Então a compra pode ser finalizada com sucesso..............................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "pages.Login.clickSignIn()" because "this.login" is null
+	at steps.BddSteps.que_o_cliente_tenha_logado_no_site(BddSteps.java:77)
+	at ✽.que o cliente tenha logado no site(file:///Users/menahem.lima/Downloads/automation_web_java/src/test/java/features/bdd.feature:11)
+]]></failure>
+    </testcase>
+</testsuite>
