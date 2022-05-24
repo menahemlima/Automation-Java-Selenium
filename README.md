@@ -25,7 +25,7 @@ Cenário Bônus: Desenvolva um novo cenário para a anteriormente citada no qual
 As ferramentas utilizadas foram:
 1. Intellij IDE.
 2. Linguagem de programação JAVA.
-3. Selenium Webdriver, Maven e JUnit.
+3. Selenium Webdriver, Cucumber, Maven e JUnit.
 4. Foi utilizado o padrão de projetos Page Objects.
 
 
@@ -54,4 +54,4 @@ Todos os testes que cobertos foram: **PASSED**.
 
 Os resultados esperados estão de acordo com o que foi planejado.
 
-**Web:** Executar > (web/src/test/tests/RennerTests.java)
+**Web:** Executar > (web/src/test/tests/RunnerTests.java)
